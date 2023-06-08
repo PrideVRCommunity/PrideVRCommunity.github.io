@@ -42,7 +42,7 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 230, 167, 86;
+  --bs-primary-rgb: 202, 245, 196;
   --bs-secondary-rgb: 47, 23, 15;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
@@ -87,6 +87,7 @@
   --bs-code-color: #d63384;
   --bs-highlight-bg: #fff3cd;
   --nav-menu-color: #507EADBA;
+  --content-box-color: #caf5c480;
 }
 
 *,
@@ -11228,7 +11229,7 @@ p {
 }
 
 .bg-faded {
-  background-color: #f6e1c580;
+  background-color: var(--content-box-color);
 }
 
 .btn-xl {
@@ -11291,7 +11292,6 @@ a:hover {
 .cta {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: rgba(141, 56, 221, 0.7);
 }
 .cta .cta-inner {
   position: relative;
